@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+@keyframes slide-right{
+    from {
+        margin-left: -500vh;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*
+*INDEX 2
+*/
+
+
+.bg2{
+    background: url(./img/blck.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tx1{
+    margin: 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-size: 8vh;
+    animation: fadeIn 5s ease-in-out normal;
+
+}
+.text{
+    padding-top: 40vh;
+}
+
+.button2{
+    align-items: center;
+    height: 100vh;
+}
+
+.btn2{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.82) 0, rgba(0, 0, 0, 0.31) 50%, rgba(84, 84, 84, 0) 100%);
+    padding: 0% 0%;
+    font-size: 4.4vw;
+    backdrop-filter: blur(2px);
+    width: 100%;
+}
+/*
+*INDEX 3
+*/
+.obg{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.564);
+}
+
+.bg3{
+    background: url(./img/index3.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tx2{
+    margin: 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-size: 8vh;
+    animation: fadeIn 5s ease-in-out normal;
+
+}
+.text1{
+    padding-top: 37vh;
+}
+
+.button3{
+    align-items: center;
+    height: 100vh;
+}
+
+.btn3{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.82) 0, rgba(0, 0, 0, 0.31) 50%, rgba(84, 84, 84, 0) 100%);
+    padding: 0% 0%;
+    font-size: 4.4vw;
+    backdrop-filter: blur(2px);
+    width: 100vh;
+}
+/*
+*INDEX 4
+*/
+
+
+.bg4{
+    background: url(./img/index4.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tx3{
+    margin: 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-size: 8vh;
+    animation: fadeIn 5s ease-in-out normal;
+
+}
+.text2{
+    padding-top: 32vh;
+}
+
+.button4{
+    align-items: center;
+    height: 100vh;
+}
+
+.btn4{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.82) 0, rgba(0, 0, 0, 0.31) 50%, rgba(84, 84, 84, 0) 100%);
+    padding: 0% 0%;
+    font-size: 4.4vw;
+    backdrop-filter: blur(2px);
+    width: 100vh;
+}
+/*
+*INDEX 5
+*/
+
+
+.bg5{
+    background: url(./img/blck.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tx4{
+    margin: 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-size: 8vh;
+    animation: fadeIn 5s ease-in-out normal;
+}
+.text3{
+    padding-top: 42vh;
+}
+
+.button5{
+    align-items: center;
+    height: 100vh;
+}
+
+.btn5{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.82) 0, rgba(0, 0, 0, 0.31) 50%, rgba(84, 84, 84, 0) 100%);
+    padding: 0% 0%;
+    font-size: 4.4vw;
+    backdrop-filter: blur(2px);
+    width: 100vh;
+}
+/*
+*INDEX 6
+*/
+
+
+.bg6{
+    background: url(./img/index6.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tx5{
+    margin: 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-size: 8vh;
+    animation: fadeIn 5s ease-in-out normal;
+}
+.text4{
+    padding-top: 42vh;
+}
+
+.button6{
+    align-items: center;
+    height: 100vh;
+}
+
+.btn6{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.82) 0, rgba(0, 0, 0, 0.31) 50%, rgba(84, 84, 84, 0) 100%);
+    padding: 0% 0%;
+    font-size: 4.4vw;
+    backdrop-filter: blur(2px);
+    width: 100vh;
+}
+/*
+*INDEX 7
+*/
+
+
+.bg7{
+    background: url(./img/index7.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tx6{
+    margin: 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-size: 8vh;
+    animation: fadeIn 5s ease-in-out normal;
+}
+.text5{
+    padding-top: 42vh;
+}
+
+.button7{
+    align-items: center;
+    height: 100vh;
+}
+
+.btn7{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.82) 0, rgba(0, 0, 0, 0.31) 50%, rgba(84, 84, 84, 0) 100%);
+    padding: 0% 0%;
+    font-size: 4.4vw;
+    backdrop-filter: blur(2px);
+    width: 100vh;
+}
+/*
+*INDEX 8
+*/
+
+
+.bg8{
+    background: url(./img/index8.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tx7{
+    margin: 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-size: 8vh;
+    animation: fadeIn 5s ease-in-out normal;
+}
+.text6{
+    padding-top: 42vh;
+}
+
+.button8{
+    align-items: center;
+    height: 100vh;
+}
+
+.btn8{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.82) 0, rgba(0, 0, 0, 0.31) 50%, rgba(84, 84, 84, 0) 100%);
+    padding: 0% 0%;
+    font-size: 4.4vw;
+    backdrop-filter: blur(2px);
+    width: 100vh;
+}
+/*
+*INDEX 9
+*/
+
+
+.bg9{
+    background: url(./img/index9.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tx8{
+    margin: 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-size: 8vh;
+    animation: fadeIn 5s ease-in-out normal;
+}
+.text7{
+    padding-top: 42vh;
+}
+
+.button9{
+    align-items: center;
+    height: 100vh;
+}
+
+.btn9{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.82) 0, rgba(0, 0, 0, 0.31) 50%, rgba(84, 84, 84, 0) 100%);
+    padding: 0% 0%;
+    font-size: 4.4vw;
+    backdrop-filter: blur(2px);
+    width: 100vh;
+}
+/*
+*INDEX 10
+*/
+
+
+.bg10{
+    background: url(./img/blck.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tx9{
+    margin: 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-size: 8vh;
+    animation: fadeIn 5s ease-in-out normal;
+}
+.text8{
+    padding-top: 42vh;
+}
+
+.button10{
+    align-items: center;
+    height: 100vh;
+}
+
+.btn10{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.82) 0, rgba(0, 0, 0, 0.31) 50%, rgba(84, 84, 84, 0) 100%);
+    padding: 0% 0%;
+    font-size: 4.4vw;
+    backdrop-filter: blur(2px);
+    width: 100vh;
+}
+/*
+*INDEX 11
+*/
+
+
+.bg11{
+    background: url(./img/index11.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tx10{
+    margin: 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-size: 8vh;
+    animation: fadeIn 5s ease-in-out normal;
+}
+.text9{
+    padding-top: 42vh;
+}
+
+.button11{
+    align-items: center;
+    height: 100vh;
+}
+
+.btn11{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.82) 0, rgba(0, 0, 0, 0.31) 50%, rgba(84, 84, 84, 0) 100%);
+    padding: 0% 0%;
+    font-size: 4.4vw;
+    backdrop-filter: blur(2px);
+    width: 100vh;
+}
+/*
+*INDEX 12
+*/
+
+
+.bg12{
+    background: url(./img/index12.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tx11{
+    margin: 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-size: 8vh;
+    animation: fadeIn 5s ease-in-out normal;
+}
+.text10{
+    padding-top: 42vh;
+}
+
+.button12{
+    align-items: center;
+    height: 100vh;
+}
+
+.btn12{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.82) 0, rgba(0, 0, 0, 0.31) 50%, rgba(84, 84, 84, 0) 100%);
+    padding: 0% 0%;
+    font-size: 4.4vw;
+    backdrop-filter: blur(2px);
+    width: 100vh;
+}
+/*
+*INDEX 13
+*/
+
+
+.bg13{
+    background: url(./img/blck.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tx12{
+    margin: 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-size: 8vh;
+    animation: fadeIn 5s ease-in-out normal;
+}
+.text11{
+    padding-top: 42vh;
+}
+
+.button13{
+    align-items: center;
+    height: 100vh;
+}
+
+.btn13{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.82) 0, rgba(0, 0, 0, 0.31) 50%, rgba(84, 84, 84, 0) 100%);
+    padding: 0% 0%;
+    font-size: 4.4vw;
+    backdrop-filter: blur(2px);
+    width: 100vh;
+}
+/*
+*INDEX 14
+*/
+
+
+.bg14{
+    background: url(./img/blck.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tx13{
+    margin: 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-size: 40vh;
+    animation: fadeIn 2s ease-in-out normal;
+}
+.text12{
+    padding-top: 32vh;
+}
+
+.button14{
+    align-items: center;
+    height: 100vh;
+}
+
+.btn14{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.82) 0, rgba(0, 0, 0, 0.31) 50%, rgba(84, 84, 84, 0) 100%);
+    padding: 0% 0%;
+    font-size: 4.4vw;
+    backdrop-filter: blur(2px);
+    width: 100vh;
+}
+/*
+*INDEX 15
+*/
+
+
+.bg15{
+    background: url(./img/blck.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tx14{
+    margin: 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-size: 8vh;
+    animation: 2s slide-right;
+    animation-delay: 0s;
+}
+.text13{
+    padding-top: 40vh;
+}
+
+.button15{
+    align-items: center;
+    height: 100vh;
+}
+
+.btn15{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.82) 0, rgba(0, 0, 0, 0.31) 50%, rgba(84, 84, 84, 0) 100%);
+    padding: 0% 0%;
+    font-size: 4.4vw;
+    backdrop-filter: blur(2px);
+    width: 100vh;
+}
+/*
+*INDEX 16
+*/
+
+
+.bg16{
+    background: url(./img/blck.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tx15{
+    margin: 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-size: 8vh;
+    animation: fadeIn 1s ease-in-out normal;
+}
+.text14{
+    padding-top: 42vh;
+}
+
+.button16{
+    align-items: center;
+    height: 100vh;
+}
+
+.btn16{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.82) 0, rgba(0, 0, 0, 0.31) 50%, rgba(84, 84, 84, 0) 100%);
+    padding: 0% 0%;
+    font-size: 4.4vw;
+    backdrop-filter: blur(2px);
+    width: 100vh;
+}
+/*
+*INDEX 17
+*/
+
+
+.bg17{
+    background: url(./img/blck.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.tx16{
+    margin: 0px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", serif;
+    font-size: 8vh;
+    animation: fadeIn 2s ease-in-out normal;
+}
+.text15{
+    padding-top: 42vh;
+}
+
+.button17{
+    align-items: center;
+    height: 100vh;
+}
+
+.btn17{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0%;
+    opacity: 0;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.82) 0, rgba(0, 0, 0, 0.31) 50%, rgba(84, 84, 84, 0) 100%);
+    padding: 0% 0%;
+    font-size: 4.4vw;
+    backdrop-filter: blur(2px);
+    width: 100vh;
+}
+
